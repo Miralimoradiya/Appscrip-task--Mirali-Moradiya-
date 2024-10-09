@@ -1,0 +1,409 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* table header  */
+.Header-Top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  font-size: 20px;
+  padding: 10px 0px;
+  color: rgb(122, 95, 95);
+}
+
+.Header-Top .item {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+  text-align: center;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 8%;
+}
+
+.header .headersec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  font-size: 30px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: end;
+  width: 15%;
+}
+
+.logo-text {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.language-select {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.headersec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.headersec2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.headersec2 li {
+  margin: 0 20px;
+}
+
+.headersec2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* footer  */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 4%;
+  font-size: 14px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-sectiontop,
+.footer-sectionbottom {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.footer-newsletter,
+.footer-contact,
+.footer-metta-muse,
+.footer-links,
+.footer-follow {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-newsletter h3,
+.footer-metta-muse h3,
+.footer-links h3,
+.footer-follow h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.footer-newsletter p {
+  margin-bottom: 10%;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.email-input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.subscribe-button {
+  padding: 12px 5%;
+  background-color: transparent;
+  border: 2px solid gray;
+  color: #aaa2a2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.footer-contact p:nth-of-type(1),
+.footer-contact a,
+.footer-contact small {
+  opacity: 0.7;
+}
+
+.footer-contact p,
+.footer-contact a,
+.footer-contact small,
+.footer-metta-muse ul li a,
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.footer-links ul li,
+.footer-metta-muse ul li {
+  padding: 5px 0;
+}
+
+.footer-contact small {
+  font-size: 12px;
+}
+
+.footer-contact .language {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  opacity: 1;
+}
+
+.footer-contact .language p {
+  opacity: 1;
+}
+
+.footer-contact .language img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.footer-contact a:hover,
+.footer-metta-muse ul li a:hover,
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-metta-muse ul,
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-metta-muse ul li,
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-follow {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-follow h4 {
+  margin: 70px 0 20px;
+}
+
+.social-icons a {
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 7px 5px 7px;
+  margin-right: 5px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.payment-icons svg {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-bottom small {
+  font-size: 12px;
+  color: #888;
+}
+
+/* index page  */
+/* styles.css */
+.indexpage {
+  padding: 0px 3%;
+  margin: 0px 0px 30% 0px;
+}
+.indexpage .heading {
+  align-items: center;
+  text-align: center;
+  padding: 3% 30%;
+}
+
+.indexpage .heading h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.indexpage .heading p {
+  text-align: center;
+  font-size: 19px;
+}
+
+/* page heading  */
+
+.filter-hideshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.item-count {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  width: 30%;
+}
+
+.item-count p {
+  margin-right: 7%;
+  font-weight: 600;
+}
+
+.select-container {
+  flex-shrink: 0;
+}
+
+.item-select {
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+/* main content  */
+.maincontent {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  margin: 2% 0;
+}
+
+.maincontent .left {
+  width: 20%;
+}
+
+.maincontent .right {
+  width: 80%;
+}
+/* Sidebar styles */
+.left .customizable input {
+  margin: 0 10px 0 0;
+}
+
+.left .ideal {
+  margin: 20px 0 0 0;
+  border-top: 2px solid #ccc;
+  padding: 10px 0;
+}
+
+.left .ideal .top {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.left .ideal p {
+  padding: 10px 0 0 0;
+}
+
+.hideshow p:nth-of-type(1) {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+/* right  */
+.products-grid {
+  display: grid;
+  gap: 2% 3%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.products-grid .product {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.products-grid .product img {
+  height: 320px;
+  width: 100%;
+}
+.products-grid .product h3 {
+  margin: 10px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.products-grid .product .likeproduct {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 250px;
+}

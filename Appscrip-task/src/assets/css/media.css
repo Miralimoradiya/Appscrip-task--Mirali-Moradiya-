@@ -1,0 +1,300 @@
+@media (max-width: 1200px) {
+  .header {
+    padding: 15px 5%;
+  }
+
+  .logo-container {
+    font-size: 28px;
+  }
+
+  .headersec2 li {
+    margin: 0 15px;
+  }
+  .footer-sectiontop,
+  .footer-sectionbottom {
+    flex-direction: row;
+  }
+  .indexpage .heading {
+    padding: 3% 20%;
+  }
+
+  .indexpage .heading h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .indexpage .heading p {
+    font-size: 18px;
+  }
+  .filter-hideshow {
+    padding: 20px 0px;
+  }
+
+  .item-count {
+    width: 25%;
+  }
+  .maincontent .left {
+    width: 25%;
+  }
+
+  .maincontent .right {
+    width: 75%;
+  }
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .sidebar {
+    width: 200px;
+  }
+}
+
+/* 992 px  */
+@media (max-width: 992px) {
+  .header {
+    padding: 10px 3%;
+  }
+
+  .logo-container {
+    font-size: 24px;
+  }
+
+  .headersec1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .headersec2 {
+    flex-direction: column;
+  }
+  .footer-newsletter,
+  .footer-contact,
+  .footer-metta-muse,
+  .footer-links,
+  .footer-follow {
+    flex: 1 0 100%;
+  }
+  .indexpage {
+    padding: 0px 2%;
+  }
+  .indexpage .heading {
+    padding: 3% 15%;
+  }
+
+  .indexpage .heading h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .indexpage .heading p {
+    font-size: 17px;
+  }
+  .filter-hideshow {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .item-count {
+    width: 100%;
+  }
+
+  .select-container {
+    margin-top: 10px;
+  }
+  .maincontent .left {
+    width: 30%;
+  }
+
+  .maincontent .right {
+    width: 70%;
+    font-size: 15px;
+  }
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sidebar {
+    width: 150px;
+  }
+}
+/* 768 px  */
+
+@media (max-width: 768px) {
+  .headersec1 {
+    align-items: center;
+  }
+
+  .icon-container {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin: 10px 0;
+  }
+
+  .language-select {
+    margin: 10px 0;
+  }
+  .footer {
+    padding: 20px 2%;
+  }
+
+  .footer-newsletter h3,
+  .footer-follow h3 {
+    font-size: 16px;
+  }
+
+  .email-input {
+    width: 70%;
+  }
+  .indexpage {
+    padding: 0px 2%;
+  }
+  .indexpage .heading {
+    padding: 3% 10%;
+  }
+
+  .indexpage .heading h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .indexpage .heading p {
+    font-size: 16px;
+  }
+  .filter-hideshow {
+    padding: 15px;
+  }
+
+  .item-count {
+    width: 100%;
+  }
+
+  .item-select {
+    width: 100%;
+  }
+  .maincontent .left {
+    width: 30%;
+  }
+
+  .maincontent .right {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .left .ideal .top {
+    font-size: 14px;
+  }
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  .products-grid .product h3 {
+    max-width: 100%;
+  }
+  .sidebar {
+    width: 130px;
+  }
+}
+/* 576 px  */
+
+@media (max-width: 576px) {
+  .logo-container {
+    font-size: 20px;
+  }
+
+  .headersec2 {
+    flex-direction: column;
+  }
+
+  .headersec2 li {
+    margin: 5px 0;
+  }
+
+  .headersec2 a {
+    font-size: 14px;
+  }
+  .footer {
+    padding: 15px 1%;
+  }
+
+  .footer-newsletter h3,
+  .footer-follow h3,
+  .footer-contact small {
+    font-size: 14px;
+  }
+
+  .social-icons a {
+    padding: 6px 5px;
+  }
+
+  .payment-icons svg {
+    font-size: 20px;
+  }
+  .indexpage {
+    padding: 0px 1%;
+  }
+  .indexpage .heading {
+    padding: 3% 5%;
+  }
+
+  .indexpage .heading h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .indexpage .heading p {
+    font-size: 15px;
+  }
+  .filter-hideshow {
+    padding: 10px;
+  }
+
+  .item-count {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .item-count p {
+    margin-right: 0;
+  }
+
+  .select-container {
+    margin-top: 10px;
+  }
+  .maincontent .left {
+    display: none;
+  }
+
+  .maincontent .right {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .left .customizable input {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .left .ideal {
+    margin: 10px 0;
+  }
+
+  .left .ideal .top {
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+  .products-grid .product {
+    padding: 10px;
+  }
+  .products-grid .product h3 {
+    font-size: 15px;
+  }
+  .sidebar {
+    display: none;
+  }
+}
